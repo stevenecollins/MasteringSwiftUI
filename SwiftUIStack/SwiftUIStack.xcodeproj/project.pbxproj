@@ -12,6 +12,8 @@
 		B6ED37DB292E68DF00D12580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6ED37DA292E68DF00D12580 /* Assets.xcassets */; };
 		B6ED37DE292E68DF00D12580 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6ED37DD292E68DF00D12580 /* Preview Assets.xcassets */; };
 		B6ED37E5292E98B200D12580 /* SwiftUIViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ED37E4292E98B200D12580 /* SwiftUIViewTest.swift */; };
+		B6ED37E7292E9B1600D12580 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ED37E6292E9B1600D12580 /* CardView.swift */; };
+		B6ED37E9292EAA1900D12580 /* PricingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ED37E8292EAA1900D12580 /* PricingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		B6ED37DA292E68DF00D12580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6ED37DD292E68DF00D12580 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B6ED37E4292E98B200D12580 /* SwiftUIViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewTest.swift; sourceTree = "<group>"; };
+		B6ED37E6292E9B1600D12580 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B6ED37E8292EAA1900D12580 /* PricingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			children = (
 				B6ED37D6292E68DE00D12580 /* SwiftUIStackApp.swift */,
 				B6ED37D8292E68DE00D12580 /* ContentView.swift */,
+				B6ED37E8292EAA1900D12580 /* PricingView.swift */,
 				B6ED37E4292E98B200D12580 /* SwiftUIViewTest.swift */,
+				B6ED37E6292E9B1600D12580 /* CardView.swift */,
 				B6ED37DA292E68DF00D12580 /* Assets.xcassets */,
 				B6ED37DC292E68DF00D12580 /* Preview Content */,
 			);
@@ -142,6 +148,8 @@
 			files = (
 				B6ED37E5292E98B200D12580 /* SwiftUIViewTest.swift in Sources */,
 				B6ED37D9292E68DE00D12580 /* ContentView.swift in Sources */,
+				B6ED37E9292EAA1900D12580 /* PricingView.swift in Sources */,
+				B6ED37E7292E9B1600D12580 /* CardView.swift in Sources */,
 				B6ED37D7292E68DE00D12580 /* SwiftUIStackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
