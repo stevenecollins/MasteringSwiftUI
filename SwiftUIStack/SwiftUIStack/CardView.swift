@@ -31,6 +31,7 @@ struct CardView: View {
                             .fontWeight(.black)
                             .foregroundColor(.primary)
                             .lineLimit(3)
+                            .minimumScaleFactor(0.5)
                         
                         Text("Written By \(author)".uppercased())
                             .font(.caption)
